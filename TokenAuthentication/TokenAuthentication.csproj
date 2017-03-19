@@ -2,6 +2,18 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard1.6</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>MoonLight.TokenAuthentication</PackageId>
+    <Authors>Ayman Gaafar</Authors>
+    <Company></Company>
+    <Description />
+    <Copyright>© 2017</Copyright>
+    <PackageLicenseUrl>https://github.com/AymanGaafar/TokenAuthentication/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/AymanGaafar/TokenAuthentication</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/AymanGaafar/TokenAuthentication</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <NeutralLanguage>ebu</NeutralLanguage>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
   <ItemGroup>
