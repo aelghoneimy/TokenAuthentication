@@ -6,7 +6,7 @@
     <PackageId>MoonLight.TokenAuthentication</PackageId>
     <Authors>Ayman Gaafar</Authors>
     <Company></Company>
-    <Description />
+    <Description>Helper library for JWT creation and authentication.</Description>
     <Copyright>© 2017</Copyright>
     <PackageLicenseUrl>https://github.com/AymanGaafar/TokenAuthentication/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/AymanGaafar/TokenAuthentication</PackageProjectUrl>
