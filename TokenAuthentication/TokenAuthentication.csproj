@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <PackageId>TokenAuthentication</PackageId>
+    <PackageId>MoonLight.TokenAuthentication</PackageId>
     <Authors>Ayman Gaafar</Authors>
     <Company></Company>
     <Description>Helper library for JWT creation and authentication.</Description>
@@ -14,7 +14,7 @@
     <RepositoryType>Git</RepositoryType>
     <NeutralLanguage>en</NeutralLanguage>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-    <Version>1.1</Version>
+    <Version>2.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
