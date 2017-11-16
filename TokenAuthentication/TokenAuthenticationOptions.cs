@@ -19,7 +19,7 @@
         public string Issuer { get; set; } = ClaimsIdentity.DefaultIssuer;
         public string Key
         {
-            get { return _key; }
+            get => _key;
             set
             {
                 _key = value;

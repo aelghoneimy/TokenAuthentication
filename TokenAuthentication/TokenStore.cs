@@ -1,9 +1,10 @@
 ﻿namespace TokenAuthentication
 {
+    using System.Collections.Concurrent;
     using System.Collections.Generic;
     using System.Linq;
     using Microsoft.AspNetCore.Http;
-    using Microsoft.AspNetCore.Server.Kestrel.Internal.Http;
+    using Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http;
 
     public class TokenStore<TKey, TUser> : ITokenStore<TKey, TUser>
     {
@@ -11,7 +12,7 @@
 
         public string CurrentToken => ((FrameRequestHeaders)_context.HttpContext?.Request.Headers)?.HeaderAuthorization.FirstOrDefault()?.Substring(7);
 
-        public IDictionary<string, Token<TKey, TUser>> Tokens { get; } = new Dictionary<string, Token<TKey, TUser>>();
+        public IDictionary<string, Token<TKey, TUser>> Tokens { get; } = new ConcurrentDictionary<string, Token<TKey, TUser>>();
 
         public TokenStore(IHttpContextAccessor context)
         {

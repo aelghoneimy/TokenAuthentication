@@ -3,7 +3,7 @@
     using System.Linq;
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Http;
-    using Microsoft.AspNetCore.Server.Kestrel.Internal.Http;
+    using Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http;
 
     public class TokenAuthenticationMiddleware<TKey, TUser>
     {
